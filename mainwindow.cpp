@@ -1,6 +1,7 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
 #include <QtDebug>
+#include <cmath>
 
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
@@ -136,11 +137,12 @@ void MainWindow::on_solveButton_clicked()
                for(int i=1;i<=n;i++) {
 
                    qDebug() << x[i];
-//                   if(x[i] == INFINITY || x[i] == NAN ) {
-//                       ui->xResult->setText("A is not invertible matrix.");
-//                       f = 0 ;
-//                        break;
-//                   }
+                   if(!std::isfinite(x[i]) ) {
+                       ui->xResult->setText("A is not invertible matrix.");
+                       ui->errorText->setText("");
+                       f = 0 ;
+                        break;
+                   }
 
                 }
                if(f == 1) {
