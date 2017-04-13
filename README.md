@@ -7,7 +7,7 @@
 ### Tools used 
 > Qt Creator IDE (open source version )
 
-### How do I get set up? ###
+### Deployment instructions ###
 
 * Follow these steps to run the application on an Ubuntu Linux Operating System
 16.04.
@@ -20,11 +20,10 @@
       * cd akankshabhardwaj-vlabs
       * chmod +x build.sh
       * ./build.sh
-* Dependencies
+* Dependencies 
+      * To generate the platform specific makefile (for platforms other than Ubuntu 16.04) the script 'build.sh' requires 'qmake' to be installed.
 
-
-* Deployment instructions
 
 
 * Tested on 
-> OS: Ubuntu 16.04.1 LTS [linux version 4.4.0-51-generic]
+       * OS: Ubuntu 16.04.1 LTS [linux version 4.4.0-51-generic]
