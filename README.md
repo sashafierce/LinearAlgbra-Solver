@@ -9,13 +9,7 @@
 
 ### Deployment instructions ###
 
-* Follow these steps to run the application on an Ubuntu Linux Operating System
-16.04.
-      * git clone https://sashafierce@bitbucket.org/sashafierce/akankshabhardwaj-vlabs.git
-      * cd akankshabhardwaj-vlabs
-      * ./Test
-
-* Follow these steps to run the application on other platforms.
+* Follow these steps to run the application:
       * git clone https://sashafierce@bitbucket.org/sashafierce/akankshabhardwaj-vlabs.git
       * cd akankshabhardwaj-vlabs
       * chmod +x build.sh
