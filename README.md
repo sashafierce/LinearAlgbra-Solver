@@ -14,10 +14,5 @@
       * cd akankshabhardwaj-vlabs
       * chmod +x build.sh
       * ./build.sh
-* Dependencies 
-      * To generate the platform specific makefile (for platforms other than Ubuntu 16.04) the script 'build.sh' requires 'qmake' to be installed.
-
-
-
 * Tested on 
        * OS: Ubuntu 16.04.1 LTS [linux version 4.4.0-51-generic]
