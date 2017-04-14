@@ -1,4 +1,3 @@
-qmake -project
-qmake Test.pro
-make
+#!/bin/sh
+export LD_LIBRARY_PATH=./lib
 ./Test
