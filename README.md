@@ -10,8 +10,8 @@
 ### Deployment instructions ###
 
 * Follow these steps to run the application:
-      * git clone https://sashafierce@bitbucket.org/sashafierce/akankshabhardwaj-vlabs.git
-      * cd akankshabhardwaj-vlabs
+      * git clone https://github.com/sashafierce/LinearAlgbra-Solver
+      * cd LinearAlgbra-Solver/
       * chmod +x build.sh
       * ./build.sh
 * Tested on 
